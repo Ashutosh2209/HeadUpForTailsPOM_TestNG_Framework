@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-22T19:15:44 IST" name="Price Comparison Suite" finished-at="2024-08-22T19:16:20 IST" duration-ms="36343">
+    <groups>
+    </groups>
+    <test started-at="2024-08-22T19:15:44 IST" name="Head Tails Application Test" finished-at="2024-08-22T19:16:01 IST" duration-ms="17095">
+      <class name="com.qa.tests.HeadTailsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.HeadTailsTest@183ec003]" started-at="2024-08-22T19:15:44 IST" name="setUp" finished-at="2024-08-22T19:15:54 IST" duration-ms="9443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HeadTails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="headTailsTitleValidation()[pri:1, instance:com.qa.tests.HeadTailsTest@183ec003]" started-at="2024-08-22T19:15:54 IST" name="headTailsTitleValidation" finished-at="2024-08-22T19:15:54 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headTailsTitleValidation -->
+        <test-method signature="getPriceValidation()[pri:2, instance:com.qa.tests.HeadTailsTest@183ec003]" started-at="2024-08-22T19:15:54 IST" name="getPriceValidation" finished-at="2024-08-22T19:16:01 IST" duration-ms="7576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.HeadTailsTest@183ec003]" started-at="2024-08-22T19:16:01 IST" name="tearDown" finished-at="2024-08-22T19:16:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.HeadTailsTest -->
+    </test> <!-- Head Tails Application Test -->
+    <test started-at="2024-08-22T19:16:01 IST" name="Super Tails Application Test" finished-at="2024-08-22T19:16:20 IST" duration-ms="19201">
+      <class name="com.qa.tests.SuperTailsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.tests.SuperTailsTest@6e535154]" started-at="2024-08-22T19:16:01 IST" name="setUp" finished-at="2024-08-22T19:16:13 IST" duration-ms="12095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SuperTails]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="superTailsTitleValidtion()[pri:1, instance:com.qa.tests.SuperTailsTest@6e535154]" started-at="2024-08-22T19:16:13 IST" name="superTailsTitleValidtion" finished-at="2024-08-22T19:16:13 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superTailsTitleValidtion -->
+        <test-method signature="getPriceValidation()[pri:2, instance:com.qa.tests.SuperTailsTest@6e535154]" started-at="2024-08-22T19:16:13 IST" name="getPriceValidation" finished-at="2024-08-22T19:16:20 IST" duration-ms="7073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.SuperTailsTest@6e535154]" started-at="2024-08-22T19:16:20 IST" name="tearDown" finished-at="2024-08-22T19:16:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.SuperTailsTest -->
+    </test> <!-- Super Tails Application Test -->
+  </suite> <!-- Price Comparison Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Price Comparison Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Head Tails Application Test(failed)">
+    <parameter name="application" value="HeadTails"/>
+    <classes>
+      <class name="com.qa.tests.HeadTailsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="getPriceValidation"/>
+        </methods>
+      </class> <!-- com.qa.tests.HeadTailsTest -->
+    </classes>
+  </test> <!-- Head Tails Application Test(failed) -->
+</suite> <!-- Failed suite [Price Comparison Suite] -->

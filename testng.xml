@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Price Comparison Suite">
+  <test name="Head Tails Application Test">
+  <parameter name="application" value="HeadTails"></parameter>
+    <classes>
+      <class name="com.qa.tests.HeadTailsTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Super Tails Application Test">
+   <parameter name="application" value="SuperTails"></parameter>
+    <classes>
+      <class name="com.qa.tests.SuperTailsTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
